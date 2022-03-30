@@ -1,0 +1,77 @@
+Enter location: Universidad de Pondicherry
+Retrieving http://py4e-data.dr-chuck.net/json?address=Universidad+de+Pondicherry&key=42
+Retrieved 1681 characters
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "Fayetteville",
+                    "short_name": "Fayetteville",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Washington County",
+                    "short_name": "Washington County",
+                    "types": [
+                        "administrative_area_level_2",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Arkansas",
+                    "short_name": "AR",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "United States",
+                    "short_name": "US",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "72701",
+                    "short_name": "72701",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "Fayetteville, AR 72701, USA",
+            "geometry": {
+                "location": {
+                    "lat": 36.0686895,
+                    "lng": -94.1748471
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 36.07003848029149,
+                        "lng": -94.1734981197085
+                    },
+                    "southwest": {
+                        "lat": 36.0673405197085,
+                        "lng": -94.1761960802915
+                    }
+                }
+            },
+            "place_id": "ChIJL_bwEOZuyYcRZyN-eDv5ohA",
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "university"
+            ]
+        }
+    ],
+    "status": "OK"
+}
+lat 36.0686895 lng -94.1748471
+Fayetteville, AR 72701, USA
